@@ -505,3 +505,37 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     shutdownlistener \
     TimeService
+
+# libril-qc-qmi-1
+PRODUCT_PACKAGES += \
+    libdiag \
+    libxml \
+    libidl \
+    libdsutils \
+    libqmiservices \
+    libqmi_client_qmux \
+    libnetmgr \
+    netmgrd \
+    libqmi \
+    qmuxd \
+    libril-qc-qmi-1 \
+    libril-qcril-hook-oem \
+    libqcci_legacy \
+    libqdp \
+    libqdi \
+    libdsi_netctrl \
+    libqmi_csvt_srvc \
+    qmi_config.xml \
+    libsystem_health_mon \
+    irsc_util \
+    libqmi_encdec \
+    libqmi_csi \
+    libqmi_common_so \
+    libqmi_cci \
+    libsmemlog \
+    libperipheral_client \
+    libconfigdb \
+    libqti-perfd-client \
+
+
+
