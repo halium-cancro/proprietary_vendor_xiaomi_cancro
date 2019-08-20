@@ -293,6 +293,7 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     qcrilmsgtunnel \
     shutdownlistener \
+    xserver \
     TimeService
 
 # libril-qc-qmi-1
@@ -512,13 +513,23 @@ PRODUCT_PACKAGES += \
     libchromatix_ov8865_q8v18a_snapshot \
     libchromatix_ov8865_q8v18a_hfr_120fps
 
+#sensors
+PRODUCT_PACKAGES += \
+    libAKM8963 \
+    sensors.msm8974 \
+    sensors.qcom \
+    libsensor1 \
+    libsensor_reg \
+    libsensor_test \
+    libsensor_user_cal \
+    sensor_def_qcomdev.conf \
+
 
 # camera
 PRODUCT_PACKAGES += \
     cpp_firmware_v1_1_1.fw \
     cpp_firmware_v1_1_6.fw \
     cpp_firmware_v1_2_0.fw \
-    libAKM8963 \
     libacdbloader \
     libacdbmapper \
     libacdbrtac \
@@ -587,100 +598,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_tintless_bg_pca_algo \
     libmmcamera_truly_cm7700_eeprom \
     liboemcamera \
-    libsensor1 \
-    libsensor_reg \
-    libsensor_test \
-    libsensor_user_cal \
     mm-qcamera-daemon \
-    sensor_def_qcomdev.conf \
-    sensors.qcom \
-    sensors.msm8974 \
 
-
-# camera maybe not need
-PRODUCT_PACKAGES_not += \
-    MTP_Bluetooth_cal.acdb \
-    MTP_General_cal.acdb \
-    MTP_Global_cal.acdb \
-    MTP_Handset_cal.acdb \
-    MTP_Hdmi_cal.acdb \
-    MTP_Headset_cal.acdb \
-    MTP_Speaker_cal.acdb \
-    cpp_firmware_v1_4_0.fw \
-    dts.lic \
-    libactuator_a3907 \
-    libactuator_a3907_camcorder \
-    libactuator_a3907_camera \
-    libactuator_bu64297_q13v06k \
-    libactuator_bu64297_q13v06k_camcorder \
-    libactuator_bu64297_q13v06k_camera \
-    libactuator_dw9714_13p1ba \
-    libactuator_dw9714_13p1ba_camcorder \
-    libactuator_dw9714_13p1ba_camera \
-    libactuator_dw9714_pc0fe \
-    libactuator_dw9714_pc0fe_camcorder \
-    libactuator_dw9714_pc0fe_camera \
-    libactuator_dw9714_q13n04a \
-    libactuator_dw9714_q13n04a_camcorder \
-    libactuator_dw9714_q13n04a_camera \
-    libactuator_dw9714_q13v04b \
-    libactuator_dw9714_q13v04b_camcorder \
-    libactuator_dw9714_q13v04b_camera \
-    libmmcamera2_cac_module \
-    libmmcamera2_q3a_core \
-    libmmcamera_S5K4E1_13P1BA \
-    libmmcamera_S5K4E1_SKUHF \
-    libmmcamera_cpp \
-    libmmcamera_dummyalgo \
-    libmmcamera_gc0310 \
-    libmmcamera_gc0339_ql1005 \
-    libmmcamera_ov13850 \
-    libmmcamera_ov13850_q13v06k \
-    libmmcamera_ov16825 \
-    libmmcamera_ov2680 \
-    libmmcamera_ov2680_07p2 \
-    libmmcamera_ov2680_5987fhq \
-    libmmcamera_ov2680_cht852b \
-    libmmcamera_ov2680_skuhf \
-    libmmcamera_ov5645 \
-    libmmcamera_ov5648_p5v18g \
-    libmmcamera_ov5648_q5v22e \
-    libmmcamera_ov5670_30010a3 \
-    libmmcamera_ov5670_q5v41b \
-    libmmcamera_ov5670_qc700 \
-    libmmcamera_ov7695 \
-    libmmcamera_ov8858 \
-    libmmcamera_ov8858_q8v19w \
-    libmmcamera_ov8858_q8v19w_30 \
-    libmmcamera_sonyimx135_eeprom \
-    libmmcamera_sunny_ov8858_q8v19w_eeprom \
-    libmmcamera_sunny_q13v04b_eeprom \
-    libmmcamera_sunny_q13v06k_eeprom \
-    libmmcamera_sunny_q5v22e_eeprom \
-    libmmcamera_sunny_q5v41b_eeprom \
-    libmmcamera_sunrise_pc0fe_eeprom \
-    libmmcamera_tuning \
-    libsensor_test2 \
-    libsensor_thresh \
-    libsensors_lib \
-    mm-audio-send-cal \
-    mm-imglib-test \
-    mm-module-hdr-test \
-    mm-module-imglib-test \
-    sensorrdiag \
-    sns_cm_conc_test \
-    sns_cm_test \
-    sns_dsps_tc0001 \
-    sns_file_test \
-    sns_hal_batch \
-    sns_hal_test \
-    sns_ping_test \
-    sns_regedit_ssi \
-    sns_smr_loopback_test \
-    srs_processing.cfg \
-    test_list \
-    test_module_pproc \
-    test_pipeline \
-    test_sensor \
 
 
