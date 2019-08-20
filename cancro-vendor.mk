@@ -524,15 +524,20 @@ PRODUCT_PACKAGES += \
     libsensor_user_cal \
     sensor_def_qcomdev.conf \
 
+#audio
+PRODUCT_PACKAGES += \
+    libacdbmapper \
+    libacdbrtac \
+    libacdbloader \
+    libadiertac \
+    libaudcal \
+    libaudioalsa \
 
 # camera
 PRODUCT_PACKAGES += \
     cpp_firmware_v1_1_1.fw \
     cpp_firmware_v1_1_6.fw \
     cpp_firmware_v1_2_0.fw \
-    libacdbloader \
-    libacdbmapper \
-    libacdbrtac \
     libactuator_dw9714 \
     libactuator_dw9714_camcorder \
     libactuator_dw9714_camera \
@@ -551,10 +556,7 @@ PRODUCT_PACKAGES += \
     libactuator_rohm_bu64243gwz \
     libactuator_rohm_bu64243gwz_camcorder \
     libactuator_rohm_bu64243gwz_camera \
-    libadiertac \
     libadsprpc \
-    libaudcal \
-    libaudioalsa \
     libmmcamera2_c2d_module \
     libmmcamera2_cpp_module \
     libmmcamera2_frame_algorithm \
